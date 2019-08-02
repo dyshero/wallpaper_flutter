@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
               img_url,
               height: double.infinity,
               width: double.infinity,
-              fit: BoxFit.fill),
+              fit: BoxFit.cover),
           Opacity(
               opacity: 0.5,
               child: Container(
